@@ -1,0 +1,14 @@
+{
+  "name": "firsthost",
+  "version": "1.0.0",
+  "description": "wishing",
+  "main": "telegramBot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nikhil",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.0"
+  }
+}
