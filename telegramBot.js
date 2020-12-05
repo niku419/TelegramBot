@@ -8,7 +8,7 @@ setInterval(() => {
     var time = today.getMinutes()
     var wishTime = hours12(today)-1
     console.log(time)
-    if(time == 43 && (wishTime+1)!=0){
+    if(time>7 && (wishTime+1)!=0){
         axios.get(`https://api.telegram.org/bot1478457868:AAFwOhJTt5ypL2y6FmbEDQJR0FoDHS-Za4U/sendMessage?chat_id=931515068&text=happy%20${wishTime}%2B143%20hour${emoji[randomNumber]}`)
         return true
     }else if(time == 43 && (wishTime+1)==0){
